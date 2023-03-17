@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char c, C;
+	char c = 'a', C = 'A';
 
 	/* while loop to print lowercase */
 	while (c <= 'z')
