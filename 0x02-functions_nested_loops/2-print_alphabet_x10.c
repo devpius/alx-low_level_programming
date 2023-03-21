@@ -4,7 +4,7 @@
  * Date: 21st-March-2023
  */
 
-#include <stdio.h>
+#include"main.h"
 
 /**
  * print_alphabet_x10 - function prints alphabets on from a-z on 10 lines
