@@ -1,9 +1,3 @@
-/*
- * Author: Gabula Pius << devpius >>
- * Email: mcduell24@gmail.com
- * Date: 23rd-March-2023
- */
-
 #include <stdio.h>
 
 /**
@@ -25,5 +19,6 @@ int main(void)
 	/* } */
 
 	printf("Infinite loop avoided! \\o/\n");
+
 	return (0);
 }
