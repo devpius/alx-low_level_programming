@@ -4,11 +4,8 @@
 
 
 /**
- * main - Entry point
- *
- * Description: print value of n, either zero, postive or negative
- *
- * Return: Always 0 (Success)
+ * postive_or_negative - function to check for postive or negative number
+ * @i: takes parameter i of type int
  */
 
 void postive_or_negative(int i)
@@ -19,6 +16,4 @@ void postive_or_negative(int i)
 		printf("%i is negative\n", i);
 	else
 		printf("%i is zero\n", i);
-
-	return;
 }
