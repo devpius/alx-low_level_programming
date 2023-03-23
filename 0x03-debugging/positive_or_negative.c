@@ -11,19 +11,14 @@
  * Return: Always 0 (Success)
  */
 
-int postive_or_negative(void)
+void postive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n < 0)
-		printf("%i is negative\n", n);
+	if (i > 0)
+		printf("%i is positive\n", i);
+	else if (i < 0)
+		printf("%i is negative\n", i);
 	else
-		printf("%i is zero\n", n);
+		printf("%i is zero\n", i);
 
-	return (0);
+	return;
 }
