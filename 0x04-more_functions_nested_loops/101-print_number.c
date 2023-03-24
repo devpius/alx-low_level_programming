@@ -7,15 +7,7 @@
 #include "main.h"
 /**
  * print_number - prints an integer
- * @n:.input integer parameter
- *
- *Owned by Bwave ICT/ Bright Daniel
- */
-
-#include "main.h"
-/**
- * print_number - prints an integer
- * @n:.input integer parameter
+ * @n: input integer parameter
  */
 void print_number(int n)
 {
