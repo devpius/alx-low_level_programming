@@ -9,6 +9,7 @@
  * _strcpy - copy the string pointed to by src to dest
  * @dest: parameter of type char to specify destination
  * @src: parameter of type char to specify source
+ * Return: returns the destination 
  */
 char *_strcpy(char *dest, char *src)
 {
