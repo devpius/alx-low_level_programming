@@ -1,7 +1,7 @@
 /*
  * Author: Gabula Pius << devpius >>
  * Email: mcduell24@gmail.com
- * Date: Thu, 30 Mar 2023 17:45:57 +0300
+ * Date: Thu, 30 Mar 2023
  */
 
 
