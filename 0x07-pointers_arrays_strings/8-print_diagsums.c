@@ -4,6 +4,7 @@
  * Date: Mon, 03 Apr 2023
  */
 
+#include "main.h"
 /**
  * print_diagsums - prints the sums of the two diagonals of a square matrix
  * @a: pointer to start of matrix
