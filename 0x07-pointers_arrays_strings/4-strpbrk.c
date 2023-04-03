@@ -4,6 +4,8 @@
  * Date: Mon, 03 Apr 2023
  */
 
+#include "main.h"
+#include <stddef.h>
 /**
  * _strpbrk - function that searches a string for any of a set of bytes
  *
@@ -15,12 +17,12 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int j;
+	int i;
 		while (*s)
 		{
-			for (j = 0; accept[j]; j++)
+			for (i = 0; accept[i]; i++)
 			{
-				if (*s == accept[j])
+				if (*s == accept[i])
 					return (s);
 			}
 			s++;
