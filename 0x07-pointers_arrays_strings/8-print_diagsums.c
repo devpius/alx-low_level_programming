@@ -4,7 +4,7 @@
  * Date: Mon, 03 Apr 2023
  */
 
-#include "main.h"
+#include "stdio.h"
 /**
  * print_diagsums - prints the sums of the two diagonals of a square matrix
  * @a: pointer to start of matrix
@@ -23,7 +23,7 @@ void print_diagsums(int *a, int n)
 	}
 	for (j = 0; j < n; j++)
 	{
-		k = (j * n) + (size - 1 - j);
+		k = (j * n) + (n - 1 - j);
 		r += *(a + k);
 	}
 	printf("%i, %i\n", l, r);
