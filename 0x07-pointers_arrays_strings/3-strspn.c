@@ -4,8 +4,6 @@
  * Date: Mon, 03 Apr 2023
  */
 
-include "main.h"
-
 /**
  * _strspn - a function that gets the length of a prefix substring
  *
@@ -16,19 +14,23 @@ include "main.h"
  * Return: the number of bytes
  */
 
-unsigned int _strspn(char *s, char *accept) 
+unsigned int _strspn(char *s, char *accept)
 {
-	int i = 0, j, k;
+	int j = 0, i, k;
 
-	for (j = 0; j[j] !='\0'; j++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if(s[j] != 32)
+		if (s[i] != 32)
 		{
-			if (s[x] == accept[y])
-				i++;
+			for (k = 0; accept[k] != '\0'; k++)
+			{
+				if (s[i] == accept[k])
+					j++;
+			}
 		}
 		else
-			return (i);
+			return (j);
 	}
-	return (i);
+		return (j);
+
 }
