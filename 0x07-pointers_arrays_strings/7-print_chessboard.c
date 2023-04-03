@@ -4,6 +4,7 @@
  * Date: Mon, 03 Apr 2023
  */
 
+#include "main.h"
 
 /**
  * print_chessboard - prints the chessboard
