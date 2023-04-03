@@ -4,6 +4,7 @@
  * Date: Mon, 03 Apr 2023
  */
 
+
 /**
  * print_chessboard - prints the chessboard
  * @a: pointer to pieces to print
@@ -23,5 +24,3 @@ void print_chessboard(char (*a)[8])
 		_putchar('\n');
 	}
 }
-
-
