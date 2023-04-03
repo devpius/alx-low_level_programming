@@ -7,22 +7,22 @@
 /**
  * print_diagsums - prints the sums of the two diagonals of a square matrix
  * @a: pointer to start of matrix
- * @size: width of matrix column
+ * @n: width of matrix column
  *
  * Return: void
  */
-void print_diagsums(int *a, int size)
+void print_diagsums(int *a, int n)
 {
 	int i, j, k, l = 0, r = 0;
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < n; i++)
 	{
-		k = (i * size) + i;
+		k = (i * n) + i;
 		l += *(a + k);
 	}
-	for (j = 0; j < size; j++)
+	for (j = 0; j < n; j++)
 	{
-		k = (j * size) + (size - 1 - j);
+		k = (j * n) + (size - 1 - j);
 		r += *(a + k);
 	}
 	printf("%i, %i\n", l, r);
