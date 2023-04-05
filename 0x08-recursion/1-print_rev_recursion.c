@@ -4,6 +4,7 @@
  * Date: Thu, 06 Apr 2023
  */
 
+#include "main.h"
 /**
  * _print_rev_recursion - prints the reverse string
  *
@@ -12,7 +13,7 @@
 
 void _print_rev_recursion(char *s)
 {
-	if (s*)
+	if (*s)
 	{
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
