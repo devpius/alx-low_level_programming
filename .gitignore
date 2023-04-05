@@ -3,3 +3,4 @@ a.*
 *.out
 postive_or_negative.c
 *-main.c
+_*
