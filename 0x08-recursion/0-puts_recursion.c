@@ -4,6 +4,8 @@
  * Date: Thu, 06 Apr 2023
  */
 
+#include<stdio.h>
+#include"main.h"
 /**
  * _puts_recursion - function prints a string followed
  *			by a new line
@@ -19,7 +21,7 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		print('\n');
+		printf("\n");
 	}
 
 }
