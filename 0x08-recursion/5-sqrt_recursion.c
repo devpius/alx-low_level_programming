@@ -10,6 +10,7 @@
  * hasRoots - checks if the function has real roots
  * @x: param of type int
  * @y: param of type int
+ * Return: returns int
  */
 int hasRoots(int x, int y)
 {
@@ -28,6 +29,7 @@ int hasRoots(int x, int y)
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
-		return(0);
+		return (0);
+
 	return (hasRoots(1, n));
 }
