@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - Entry point
  * Description: multiplies two arguments
@@ -15,9 +16,9 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, j, k;
+	int i, j;
 
-	if (argc <= 1 || argc > 3)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
@@ -26,10 +27,9 @@ int main(int argc, char *argv[])
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
 
-	k = i * j;
 
 
-	printf("%i\n", k);
+	printf("%i\n", i * j);
 
 	return (0);
 }
