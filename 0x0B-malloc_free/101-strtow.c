@@ -6,6 +6,10 @@
 
 #include <stdlib.h>
 #include "main.h"
+
+void util(char **, char *);
+void create_word(char **, char *, int, int, int);
+
 /**
  * strtow - splits a string into words.
  * @str: string to be split
