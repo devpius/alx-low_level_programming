@@ -13,7 +13,7 @@
  * @c: param of type char to be assigned to the array
  * Return: pointer to array or NULL
 */
-int *create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *arr;
 	unsigned int i;
