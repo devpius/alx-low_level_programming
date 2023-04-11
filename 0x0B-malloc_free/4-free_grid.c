@@ -4,7 +4,7 @@
  * Date: Wed, 12 Apr 2023
  */
 
-#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * free_grid - frees 2D array grid
