@@ -8,6 +8,9 @@
 
 /**
  * string_nconcat - concatenates two strings
+ * @s1 param for first string
+ * @s2: param for second string
+ * @n: param number of strings to be concatenated
  * Return: str or NULL if it fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
