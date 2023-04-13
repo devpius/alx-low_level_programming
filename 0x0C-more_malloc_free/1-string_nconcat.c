@@ -5,7 +5,8 @@
  */
 
 #include <stdio.h>
-
+#include <stdlib.h>
+#include "main.h"
 /**
  * string_nconcat - concatenates two strings
  * @s1 param for first string
