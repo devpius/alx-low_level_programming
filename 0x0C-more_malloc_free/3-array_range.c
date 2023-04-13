@@ -4,7 +4,7 @@
  * Date: Fri, 14 Apr 2023
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * array_range - array ranage of integers
