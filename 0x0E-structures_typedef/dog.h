@@ -15,3 +15,5 @@ struct DOG
 	float age;
 	char *owner;
 };
+
+#endif
