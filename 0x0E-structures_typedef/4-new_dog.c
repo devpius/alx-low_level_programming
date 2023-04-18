@@ -4,8 +4,8 @@
  * Date: Wed, 19 Apr 2023
  */
 
-#include <stdio.h>
-
+#include <stdlib.h>
+#include "dog.h"
 /**
  * new_dog - creates a new instance ogf dog
  * @name: name of the dog
