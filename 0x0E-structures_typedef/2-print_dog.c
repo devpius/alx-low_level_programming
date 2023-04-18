@@ -10,7 +10,10 @@
 /**
  * print_dog - prints dog
  * @d: pointer to dog struct instance
+ *
+ * Return (void)
  */
+
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
@@ -20,10 +23,9 @@ void print_dog(struct dog *d)
 		else
 			printf("Name: (nil)\n");
 		printf("Age: %.6f\n", d->age);
-		if (d.owner != NULL)
-			printf("Owner: %s\n", d.owner);
+		if (d->owner != NULL)
+			printf("Owner: %s\n", d->owner);
 		else
 			printf("Owner: (nil)\n");
 	}
 }
-
