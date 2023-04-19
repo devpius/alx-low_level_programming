@@ -1,7 +1,7 @@
 /*
  * Author: Gabula Pius <github.com/devpius>
  * Email: mcduell24@gmail.com
- * Date: Wed, 20 Apr 2023
+ * Date: Thur, 20 Apr 2023
  */
 
 #include "3-calc.h"
