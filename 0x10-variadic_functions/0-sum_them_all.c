@@ -5,7 +5,6 @@
  */
 
 #include "variadic_functions.h"
-#include <stdarg.h>
 
 /**
  * sum_them_all - variadic function to sum all it arguments
