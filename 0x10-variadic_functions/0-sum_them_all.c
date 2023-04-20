@@ -10,11 +10,12 @@
 /**
  * sum_them_all - variadic function to sum all it arguments
  * @n: number of arguments
- * Return: Always 0 if args are null,
+ * Return: Always 0 if args are null Return Sum,
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i, sum = 0;
+	unsigned int i;
+	int sum = 0;
 	va_list args;
 
 	va_start(args, n);
