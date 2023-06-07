@@ -5,3 +5,5 @@ postive_or_negative.c
 _*
 .vscode
 ex*.c
+*-main.c
+
