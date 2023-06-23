@@ -1,7 +1,6 @@
 /*
  * Author: Gabula Pius <github.com/devpius>
  * Email: mcduell24@gmail.com
- * Date: Wed, 19 Apr 2023
  */
 
 #include "function_pointers.h"
